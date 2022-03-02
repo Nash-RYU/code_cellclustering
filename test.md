@@ -699,7 +699,7 @@ for i in enumerate(feature):
 
 
     
-![png](output_5_0.png)
+![output_5_0](https://user-images.githubusercontent.com/61818973/156297178-29351f48-b67c-48fc-acd5-4b4e5cccb2c2.png)
     
 
 
