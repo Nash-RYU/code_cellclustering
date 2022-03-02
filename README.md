@@ -1,4 +1,4 @@
-# Unsupervised single cell cytological clustering based on QuPath
+# Unsupervised single-cell cytological clustering based on QuPath
 
 Simple but effective way to clustering tumor (and any kind of ) cells
 
