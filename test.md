@@ -737,7 +737,7 @@ sns.scatterplot(x=UMAPData["x"], y=UMAPData["y"],  hue=UMAPData["Name"], palette
 
 
     
-![png](output_9_1.png)
+![png](https://github.com/Nash-RYU/Single-cell-cytological-clustering/blob/ffafcc969c9581dfc966a20f964d0362bbdbe475/output_9_1.png)
     
 
 
