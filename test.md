@@ -802,11 +802,11 @@ sns.scatterplot(x=UMAPData["x"], y=UMAPData["y"], hue=UMAPData["GMM"], palette="
 
     <AxesSubplot:xlabel='x', ylabel='y'>
 
-
+編集
 
 
     
-![png](output_14_1.png)
+![out_put14](https://github.com/Nash-RYU/Single-cell-cytological-clustering/blob/4e3ec57b6f8f5fd4f9d59ee56dd6c44b2c25f7c9/output_14_1.png)
     
 
 
