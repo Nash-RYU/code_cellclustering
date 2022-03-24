@@ -13,36 +13,14 @@ Simple but effective way to clustering tumor (and any kind of ) cells
 
 # Requirement
 
-
 * QuPath
-** Python
-* Pandas
-* Scikit-learn
+* Python (Pandas, Scikit-learn, matplotlib, seaborn)
 * umap
-* seaborn
-* matplotlib
 
-# Installation
-
-conda create -n cell_clustering_withQuPath
-
-
-# Usage
-
-Just follow the code in notebook
-
-# Note
-
-In progress
 
 # Author
 
-Yuuki Nishimura
+Yuuki Nishimura, 
 National Cancer Center Hospital
 Diagnostic Pathology
-QuPath Pete Bankhead
-
-
-
-# License
 
