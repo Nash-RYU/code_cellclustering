@@ -4,7 +4,7 @@ Simple but effective way to clustering tumor (and any kind of ) cells
 
 # Concept
 
-ポンチ絵
+
 
 # Features
 - Simple
@@ -14,8 +14,8 @@ Simple but effective way to clustering tumor (and any kind of ) cells
 # Requirement
 
 
-
-* Python
+* QuPath
+** Python
 * Pandas
 * Scikit-learn
 * umap
