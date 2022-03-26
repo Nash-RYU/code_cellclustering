@@ -1,12 +1,13 @@
+//NOTE:This script works only for QuPath v2.
+//This script is a modified version of example script written in QuPath docs for v2 (https://qupath.readthedocs.io/en/0.2/docs/advanced/stardist.html).
+
 selectAnnotations();
-
 import qupath.tensorflow.stardist.StarDist2D
-
 
 def entry = getProjectEntry()
 def name = entry.getImageName() + ".txt"
-// Specify the model directory (you will need to change this!)
-def pathModel = "/home/nash/qupath_scripts/he_heavy_augment"
+// Specify the model directory 
+def pathModel = "/path/to/he_heavy_augment"
 
 def stardist = StarDist2D.builder(pathModel)
         .threshold(0.5)              // Probability (detection) threshold
@@ -28,10 +29,10 @@ if (pathObjects.isEmpty()) {
 }
 stardist.detectObjects(imageData, pathObjects)
 
-saveDetectionMeasurements("/media/nash/Transcend/QuPathProject/DetectionMeasurement_SOX9/Progression_exome/" + name)
-
+saveDetectionMeasurements("/path/to/directory/" + name)
+_
 setCellIntensityClassifications('DAB: Nucleus: Mean', 0.1, 0.3, 0.5)
-saveAnnotationMeasurements("/media/nash/Transcend/QuPathProject/AnnotationMeasurement_SOX9/Progression_exome/" + name)
+saveAnnotationMeasurements("/path/to/directory/" + name)
 
 
 
