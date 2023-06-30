@@ -13,7 +13,7 @@ def stardist = StarDist2D.builder(pathModel)
         .threshold(0.5)              // Probability (detection) threshold
         .normalizePercentiles(1, 99) // Percentile normalization
         .pixelSize(0.3)              // Resolution for detection
-        .cellExpansion(10.0)          // Approximate cells based upon nucleus expansion
+        .cellExpansion(5.0)          // Approximate cells based upon nucleus expansion
         .cellConstrainScale(2.0)     // Constrain cell expansion using nucleus size
         .measureShape()              // Add shape measurements
         .measureIntensity()          // Add cell measurements (in all compartments)
@@ -28,7 +28,6 @@ if (pathObjects.isEmpty()) {
     return
 }
 stardist.detectObjects(imageData, pathObjects)
-
 saveDetectionMeasurements("/path/to/directory/" + name)
 
 // You can also measure IHC percentage positivity and h-score with below (option)
