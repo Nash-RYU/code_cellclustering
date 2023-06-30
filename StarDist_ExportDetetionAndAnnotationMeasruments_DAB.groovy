@@ -30,9 +30,10 @@ if (pathObjects.isEmpty()) {
 stardist.detectObjects(imageData, pathObjects)
 
 saveDetectionMeasurements("/path/to/directory/" + name)
-_
-setCellIntensityClassifications('DAB: Nucleus: Mean', 0.1, 0.3, 0.5)
-saveAnnotationMeasurements("/path/to/directory/" + name)
+
+// You can also measure IHC percentage positivity and h-score with below (option)
+//setCellIntensityClassifications('DAB: Nucleus: Mean', 0.1, 0.3, 0.5)
+//saveAnnotationMeasurements("/path/to/directory/" + name)
 
 
 
