@@ -1,10 +1,10 @@
 # Unsupervised single-cell morphological clustering based on QuPath
 
-Simple but effective way to clustering tumor (and any kind of ) cells
+Simple but effective way to clustering tumor (and any kind of) cells
 
 # Requirement
 * Whole slide image(s)
-* QuPath(v2)
+* QuPath(v2/v3)
 * Python (Pandas, Scikit-learn, matplotlib, seaborn, umap)
 
 
