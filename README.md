@@ -3,8 +3,8 @@
 Simple but effective way to clustering tumor (and any kind of ) cells
 
 # Requirement
-
-* QuPath
+* Whole slide image(s)
+* QuPath(v2)
 * Python (Pandas, Scikit-learn, matplotlib, seaborn, umap)
 
 
